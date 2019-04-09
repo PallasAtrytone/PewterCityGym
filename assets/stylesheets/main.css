@@ -46,3 +46,61 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+=================
+General Styling
+=================
+*/
+
+.page, .banner, .blurb, .brock-bio {
+	border: solid black 1px;
+}
+
+.panel-image  {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+
+/*
+=================
+Structuring
+=================
+*/
+
+body {
+
+	display: flex;
+	justify-content: center;
+}
+
+.page, .blurb {
+	width: 816px;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.brock-bio {
+	display: flex;
+	flex-direction: row;
+}
+
+p {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.one-half, .second-half {
+	width: 50%;
+}
+
+.top-half, .bottom-half {
+	height: 50%;
+}
